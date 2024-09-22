@@ -1,0 +1,228 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+}
+body{
+    margin: 0px 100px;
+}
+section{
+    height: fit-content;
+}
+nav{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navlogo{
+    width: 100px;
+    margin-left: 20px;
+}
+#listitems{
+    display: flex;
+    list-style: none;
+    
+}
+#listitems li{
+    margin: 0px 20px;
+    font-weight: 650;
+    font-size: 1.2rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.home{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+.homecontent{
+    margin-left: 50px;
+}
+.homecontent h1{
+    font-size: 50px;
+    font-family: "Playpen Sans", cursive;
+}
+.lname{
+    color: red;
+    display: inline;
+    font-family: "Playpen Sans", cursive;
+}
+.homecontent p{
+    /* font-size: medium; */
+    margin: 20px 0px;
+}
+#download{
+    background-color: red;
+    padding: 5px 10px;
+    border: 0px;
+    border-radius: 5px;
+    color: azure;
+
+}
+#download:hover{
+    color: red;
+    background-color: azure;
+    outline: 1px solid red;
+    text-decoration: none;
+}
+
+#shape{
+    position: relative;
+    bottom: 0px;
+}
+#man{
+    position: absolute;
+    left: 50%;
+}
+.group1{
+    /* transform: translateX(-50px); */
+    transition: bottom 1s,left 1s;
+}
+.homeimage:hover #shape{
+    bottom: 30px;
+}
+.homeimage:hover #man{
+    left: 55%;
+}
+.mainhead{
+    text-align: center;
+}
+.mainhead>h2{
+    font-weight: 750;
+}
+.subhead{
+    color: red;
+    text-align: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    
+}
+.aboutcontent>p{
+    margin-bottom: 40px;
+}
+.aboutimage>img{
+    width: 600px;
+}
+.icons{
+    padding: 5px;
+    margin-top: 10px;
+}
+.icons span{
+    margin-left: 10px;
+}
+.icons span:hover{
+    color: red;
+}
+.skillimage{
+    position: relative;
+    left: 80px;
+}
+.bartext{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+.htmlbar{
+    background-color: red;
+    width: 90%;
+    position: relative;
+    bottom: -10px;
+    
+}
+.cssbar{
+    background-color: red;
+    width: 70%;
+    position: relative;
+    bottom: -10px;
+    
+}.jsbar{
+    background-color: red;
+    width: 30%;
+    position: relative;
+    bottom: -10px;
+    
+}
+.reactbar{
+    background-color: red;
+    width: 5%;
+    position: relative;
+    bottom: -10px;
+    
+}
+.basebar{
+    background-color: black;
+    /* position: absolute; */
+    width: 100%;
+}
+.bar{
+    height: 10px;
+}
+.bars{
+    margin: 20px 0px;
+}
+.iconcollections{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    margin: 80px 10px;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+.icon:hover{
+    border-radius: 50%;
+    background-image: linear-gradient(45deg, grey,red);
+    
+}
+.icon:hover .brands{
+    color: white;
+    animation: rotate 1.5s;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(45deg);
+    }
+    50%{
+        transform: rotate(-45deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+footer{
+    align-items: center;
+    text-align: center;
+}
+.uparrow{
+    float: right;
+    margin-top: -13px;
+}
+#copyrightname{
+    font-weight: 700;
+}
+#copyrightname:hover{
+    color: red;
+}
+html{
+    scroll-behavior: smooth;
+}

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Handjet:wght@100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playpen+Sans:wght@100..800&family=Playwrite+CU:wght@100..400&family=Protest+Guerrilla&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Sofadi+One&display=swap" rel="stylesheet">
+
+<!-- aos link -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<!-- animate style link -->
+
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+</head>
+
+<body>
+    <div id="container">
+        <nav>
+            <img class="navlogo animate__animated animate__bounce" src="./images/logo.png" alt="">
+            <ul id="listitems">
+                <li><a class="navlinks animate__animated animate__zoomIn" href="#home">Home</a></li>
+                <li><a class="navlinks animate__animated animate__zoomIn" href="#about">About</a></li>
+                <li><a class="navlinks animate__animated animate__zoomIn" href="#skills">Skills</a></li>
+                <li><a class="navlinks animate__animated animate__zoomIn" href="#contacts">Contact</a></li>
+            </ul>
+        </nav>
+        <section class="home">
+            <div class="homecontent">
+                <h1 class="animate__animated animate__zoomIn">Hey, I'm Athul <p class="lname">Krishna</p></h1>
+                <p>This is my official website to describe all <br>
+                    Details and work experience in web development.</p>
+                <a href="./documents/Athul Krishna P H ( C V ).pdf" id="download" download="">Download CV</a>
+            </div>
+            <div class="homeimage">
+                <img class="group1 animate__animated animate__bounceInRight" id="shape" src="./images/img1.svg" alt="">
+                <img class="group1" id="man" src="./images/img2.svg" alt="">
+            </div>
+        </section>
+        <section id="about">
+            <div class="mainhead">
+                <h2 class="animate__animated animate__zoomIn">About Me</h2>
+                <p class="subhead">Introduction</p>
+            </div>
+            <div class="grid">
+                <div data-aos="zoom-in-right" class="aboutimage">
+                    <img src="./images/aboutimage.svg" alt="">
+                </div>
+                <div class="aboutcontent">
+                    <p>Experienced web developer with expertise in building responsive websites and web applications.
+                        Proficient in HTML, CSS, JavaScript, and modern frameworks like React and Node.js. Skilled in
+                        creating user-friendly interfaces, optimizing performance, and ensuring seamless functionality.
+                        Strong problem-solving abilities and a passion for innovative web technologies.</p>
+                    <div class="icons">
+                        <i class="fa-solid fa-user"></i><span>Athul Krishna P H</span>
+                    </div>
+                    <div class="icons"><i class="fa-solid fa-envelope"></i><span>athulhassi@gmail.com</span></div>
+                    <div class="icons"><i class="fa-solid fa-phone"></i><span>+91 8086 730 826</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="skills">
+            <div class="mainhead">
+                <h2 class="animate__animated animate__zoomIn">Technical Skills</h2>
+                <p class="subhead">My Skills</p>
+            </div>
+            <div class="grid">
+                <div class="barpercent">
+                    
+                    <div class="bars"><div class="bartext">
+                        <h3>HTML</h3><span>90%</span>
+                    </div>
+                        <div data-aos="fade-right" class="htmlbar bar"></div>
+                        <div class="basebar bar"></div>
+                    </div>
+
+
+                    
+                    <div class="bars">
+                        <div class="bartext">
+                            <h3>CSS</h3><span>70%</span>
+                        </div>
+                        <div data-aos="fade-right" class="cssbar bar"></div>
+                        <div class="basebar bar"></div>
+                    </div>
+
+                    
+                    <div class="bars">
+                        <div class="bartext">
+                            <h3>JS</h3><span>30%</span>
+                        </div>
+                        <div data-aos="fade-right" class="jsbar bar"></div>
+                        <div class="basebar bar"></div>
+    
+                    </div>
+                    
+                    <div class="bars">
+                        <div class="bartext">
+                            <h3>REACT</h3><span>5%</span>
+                        </div>
+                        <div data-aos="fade-right" class="reactbar bar"></div>
+                        <div class="basebar bar"></div>
+                    </div>
+                </div>
+                <div data-aos="zoom-in-left" class="skillimage">
+                    <img src="./images/skillimage.svg" alt="">
+                </div>
+            </div>
+        </section>
+        <section id="contacts">
+            <div class="sectionhead">
+                <div class="mainhead">
+                    <h2 class="animate__animated animate__zoomIn">Contacts</h2>
+                </div>
+                <p class="subhead">My Contacts</p>
+            </div>
+            <div class="iconcollections">
+                <!-- linkedin -->
+                <div class="icon">
+                    <a href="https://in.linkedin.com/in/athul-krishna-p-h-830408210" target="_blank"><i
+                            class="fa-brands fa-linkedin brands"></i></a>
+                </div>
+                <!-- github -->
+                <div class="icon">
+                    <a href="https://github.com/athulkrishnaph" target="_blank"><i
+                            class="fa-brands fa-github brands"></i></a>
+                </div>
+                <!-- instagram -->
+                <div class="icon">
+                    <a href="https://www.instagram.com/__.athul.__.krishna.__" target="_blank"><i class="fa-brands fa-instagram brands"></i></a>
+                </div>
+                <!-- facebook -->
+                <div class="icon">
+                    <a href=""><i class="fa-brands fa-facebook brands"></i></a>
+                </div>
+                <!-- twitter -->
+                <div class="icon">
+                    <a href="https://x.com/__athul___7__" target="_blank"><i class="fa-brands fa-twitter brands"></i></a>
+                </div>
+                <!-- whatsapp -->
+                <div class="icon">
+                    <a href="https://wa.me/+918086730826?text=urlencodedtext" target="_blank"><i class="fa-brands fa-whatsapp brands"></i></a>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p id="copyright"> &copy; My portfolio Website - June 2024, All Rights Reserved to &reg; <span id="copyrightname">Athul Krishna</span></p>
+            <div class="icon uparrow">
+                <a href="#container"><i class="fa-solid fa-angle-up brands"></i></a>
+        </footer>
+    </div>
+
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+
+</html>
